@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header img {
+    width: 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6c49b3;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('smoothies-background.jpg') no-repeat center center/cover;
+    color: #6c49b3;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #6c49b3;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f4f1fb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 250px;
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #6c49b3;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-price {
+    font-size: 16px;
+    color: #6c49b3;
+}
+
+footer {
+    background-color: #f4f1fb;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+footer a {
+    color: #6c49b3;
+    text-decoration: none;
+}
